@@ -1,0 +1,43 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="bootfinal-web-core:war exploded">
+    <output-path>$PROJECT_DIR$/bootfinal-web-core/target/bootfinal-web-core-1.0</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="bootfinal-web-core" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.23" />
+          <element id="library" level="project" name="Maven: javax.mail:javax.mail-api:1.5.5" />
+          <element id="archive" name="bootfinal-commons-1.0.jar">
+            <element id="module-output" name="bootfinal-commons" />
+          </element>
+          <element id="library" level="project" name="Maven: org.jsoup:jsoup:1.9.2" />
+          <element id="library" level="project" name="Maven: com.jfinal:jfinal:3.0" />
+          <element id="library" level="project" name="Maven: cglib:cglib-nodep:3.1" />
+          <element id="library" level="project" name="Maven: com.jfinal:jfinal-weixin:1.7" />
+          <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache:2.10.2.2.21" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.21" />
+          <element id="archive" name="bootfinal-model-1.0.jar">
+            <element id="module-output" name="bootfinal-model" />
+          </element>
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.22" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.21" />
+          <element id="archive" name="bootfinal-message-1.0.jar">
+            <element id="module-output" name="bootfinal-message" />
+          </element>
+          <element id="archive" name="bootfinal-search-api-1.0.jar">
+            <element id="module-output" name="bootfinal-search-api" />
+          </element>
+          <element id="archive" name="bootfinal-cache-1.0.jar">
+            <element id="module-output" name="bootfinal-cache" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/bootfinal-web-core/target/bootfinal-web-core-1.0/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="bootfinal-web-core/web/Web" />
+    </root>
+  </artifact>
+</component>

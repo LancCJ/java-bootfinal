@@ -1,0 +1,134 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>bootfinal</artifactId>
+        <groupId>com.lanccj</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>bootfinal-web-core</artifactId>
+    <packaging>war</packaging>
+    <name>bootfinal-web-core Maven Webapp</name>
+    <url>http://maven.apache.org</url>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <scope>test</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>org.freemarker</groupId>
+        <artifactId>freemarker</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>javax.mail</groupId>
+        <artifactId>javax.mail-api</artifactId>
+    </dependency>
+    <dependency>
+        <artifactId>bootfinal-commons</artifactId>
+        <groupId>com.lanccj</groupId>
+        <version>1.0</version>
+        <type>jar</type>
+        <scope>compile</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>com.jfinal</groupId>
+        <artifactId>jfinal</artifactId>
+    </dependency>
+
+    <dependency>
+        <groupId>com.jfinal</groupId>
+        <artifactId>jfinal-weixin</artifactId>
+    </dependency>
+
+    <dependency>
+        <groupId>net.sf.ehcache</groupId>
+        <artifactId>ehcache</artifactId>
+    </dependency>
+
+    <dependency>
+        <artifactId>bootfinal-model</artifactId>
+        <groupId>com.lanccj</groupId>
+        <version>1.0</version>
+        <type>jar</type>
+        <scope>compile</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>javax.servlet-api</artifactId>
+        <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+        <artifactId>bootfinal-message</artifactId>
+        <groupId>com.lanccj</groupId>
+        <version>1.0</version>
+        <type>jar</type>
+        <scope>compile</scope>
+    </dependency>
+
+    <dependency>
+        <artifactId>bootfinal-search-api</artifactId>
+        <groupId>com.lanccj</groupId>
+        <version>1.0</version>
+        <type>jar</type>
+        <scope>compile</scope>
+    </dependency>
+
+    <dependency>
+        <artifactId>bootfinal-cache</artifactId>
+        <groupId>com.lanccj</groupId>
+        <version>1.0</version>
+        <type>jar</type>
+        <scope>compile</scope>
+    </dependency>
+
+</dependencies>
+
+    <build>
+        <finalName>${project.artifactId}-${project.version}</finalName>
+        <resources>
+            <resource>
+                <directory>src/main/config</directory>
+                <includes>
+                    <include>**/*.*</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/language</directory>
+                <includes>
+                    <include>**/*.*</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <attachClasses>true</attachClasses>
+                </configuration>
+                <executions>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
+</project>

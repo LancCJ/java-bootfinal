@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bootfinal.iml" filepath="$PROJECT_DIR$/Bootfinal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootfinal-cache/bootfinal-cache.iml" filepath="$PROJECT_DIR$/bootfinal-cache/bootfinal-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootfinal-commons/bootfinal-commons.iml" filepath="$PROJECT_DIR$/bootfinal-commons/bootfinal-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootfinal-message/bootfinal-message.iml" filepath="$PROJECT_DIR$/bootfinal-message/bootfinal-message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootfinal-model/bootfinal-model.iml" filepath="$PROJECT_DIR$/bootfinal-model/bootfinal-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootfinal-oauth2/bootfinal-oauth2.iml" filepath="$PROJECT_DIR$/bootfinal-oauth2/bootfinal-oauth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootfinal-search-api/bootfinal-search-api.iml" filepath="$PROJECT_DIR$/bootfinal-search-api/bootfinal-search-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootfinal-searchdb-simple/bootfinal-searchdb-simple.iml" filepath="$PROJECT_DIR$/bootfinal-searchdb-simple/bootfinal-searchdb-simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootfinal-web/bootfinal-web.iml" filepath="$PROJECT_DIR$/bootfinal-web/bootfinal-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootfinal-web-admin/bootfinal-web-admin.iml" filepath="$PROJECT_DIR$/bootfinal-web-admin/bootfinal-web-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootfinal-web-core/bootfinal-web-core.iml" filepath="$PROJECT_DIR$/bootfinal-web-core/bootfinal-web-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootfinal-web-front/bootfinal-web-front.iml" filepath="$PROJECT_DIR$/bootfinal-web-front/bootfinal-web-front.iml" />
+    </modules>
+  </component>
+</project>

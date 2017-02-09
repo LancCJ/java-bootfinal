@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.lanccj:bootfinal-web-front:war:1.0">
+    <CLASSES>
+      <root url="jar://E:/rep/com/lanccj/bootfinal-web-front/1.0/bootfinal-web-front-1.0.war!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/rep/com/lanccj/bootfinal-web-front/1.0/bootfinal-web-front-1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/rep/com/lanccj/bootfinal-web-front/1.0/bootfinal-web-front-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

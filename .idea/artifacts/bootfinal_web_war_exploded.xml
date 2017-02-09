@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="bootfinal-web:war exploded">
+    <output-path>$PROJECT_DIR$/bootfinal-web/target/bootfinal-web-1.0</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="bootfinal-web" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/bootfinal-web/target/bootfinal-web-1.0/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="bootfinal-web/web/Web" />
+      <element id="artifact" artifact-name="bootfinal-web-front:war exploded" />
+      <element id="artifact" artifact-name="bootfinal-web-admin:war exploded" />
+      <element id="artifact" artifact-name="bootfinal-web-core:war exploded" />
+    </root>
+  </artifact>
+</component>

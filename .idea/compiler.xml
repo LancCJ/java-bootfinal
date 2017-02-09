@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bootfinal-cache" />
+        <module name="bootfinal-commons" />
+        <module name="bootfinal-message" />
+        <module name="bootfinal-model" />
+        <module name="bootfinal-oauth2" />
+        <module name="bootfinal-search-api" />
+        <module name="bootfinal-searchdb-simple" />
+        <module name="bootfinal-web" />
+        <module name="bootfinal-web-admin" />
+        <module name="bootfinal-web-core" />
+        <module name="bootfinal-web-front" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Bootfinal" target="1.5" />
+      <module name="bootfinal-admin" target="1.7" />
+      <module name="bootfinal-cache" target="1.7" />
+      <module name="bootfinal-commons" target="1.7" />
+      <module name="bootfinal-message" target="1.7" />
+      <module name="bootfinal-model" target="1.7" />
+      <module name="bootfinal-oauth2" target="1.7" />
+      <module name="bootfinal-search-api" target="1.7" />
+      <module name="bootfinal-searchdb-simple" target="1.7" />
+      <module name="bootfinal-web" target="1.7" />
+      <module name="bootfinal-web-admin" target="1.7" />
+      <module name="bootfinal-web-core" target="1.7" />
+      <module name="bootfinal-web-front" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
